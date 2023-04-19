@@ -1,0 +1,14 @@
+browser:
+  browserName: chrome
+  attachScreenshot: false
+  headless: false
+  webElementTimeout: 10
+environment:
+  test1:
+    appUrl: http://automationpractice.pl/index.php
+    title: My Store
+    active: true
+  test2:
+    appUrl: http://146.59.32.4/
+    title: TesterSii
+    active: false
